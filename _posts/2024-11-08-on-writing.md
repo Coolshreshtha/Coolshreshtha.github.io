@@ -10,3 +10,7 @@ I associate good writing with good thinking and good thinking with smart people 
 Lately, I notice that alignment begets alignment, and doing what you like brings me closer to other stuff I also like. Maybe writing will be the nudge to many more fulfilling things <3.
 
 As I was reading up for this, I kept going into webs of linked articles (I'll link the relevant ones), so maybe this is just an elaborate excuse to go down interesting rabbit holes :)
+
+[^1]:  https://nesslabs.com/writing-habit-loop
+[^2]:  https://pmc.ncbi.nlm.nih.gov/articles/PMC4479710/
+[^3]:  https://nesslabs.com/brainstorming
