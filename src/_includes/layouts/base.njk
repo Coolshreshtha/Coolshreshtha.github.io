@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/styles/comic.css">
+        <title>{{ title }}</title>
+	</head>
+	<body>
+        <header>
+            <h1>{{ title }}</h1>         
+        </header>
+        <aside class="sidebar">
+            <nav class="main-nav" aria-label="Main navigation">
+              <ul class="main-nav-list">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="https://lettershewrote.substack.com">Blog</a></li>
+                    <li><a href="https://coolshreshtha.github.io/quartz-site/">Digital Garden</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#credits">Credits</a>
+              </ul>
+            </nav>
+          </aside>
+          <!-- {% include "layouts/partials/themeswitcher.njk" %} -->
+          <main tabindex="-1" id="main-content">{% block content %} {{content | safe }} {% endblock %}</main>
+
+        {% include "layouts/partials/footer.njk" %}    
+	</body>
+</html>
+
